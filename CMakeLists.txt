@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
 project(Example LANGUAGES CSharp)
-
+SET(CMAKE_CSharp_COMPILER "C:/Windows/Microsoft.NET/Framework/v4.0.30319/csc.exe")
 SET(YamlLib "YamlDotNet.dll")
 add_subdirectory(Example)
 add_subdirectory(InputFile)
