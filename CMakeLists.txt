@@ -3,3 +3,4 @@ project(Example LANGUAGES CSharp)
 
 SET(YamlLib "YamlDotNet.dll")
 add_subdirectory(Example)
+add_subdirectory(InputFile)

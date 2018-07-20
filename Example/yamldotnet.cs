@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 //using System.Diagnostics;
-//using System.Dynamic;
+using System.Dynamic;
 //using System.Globalization;
 using System.IO;
 //using System.Linq;
@@ -15,6 +15,7 @@ namespace yamldotnet
 	{
 		static void Main()
 		{
+            //dynamic dobj = "Hi I am Dynamic ";
 			var bGraph = new
 			{
 				skin = "skin",
