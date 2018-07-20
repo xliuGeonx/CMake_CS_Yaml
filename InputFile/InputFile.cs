@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-//using System.Dynamic;
+using System.Dynamic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -153,7 +153,7 @@ namespace yamldotnet
             #endregion
 
             #region define Octree
-            dynamic octreeAM = new System.Dynamic.ExpandoObject();
+            dynamic octreeAM = new object();
 
             #endregion
 
